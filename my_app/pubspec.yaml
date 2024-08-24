@@ -1,0 +1,50 @@
+name: my_app
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  table_calendar: ^3.0.0
+  hive: ^2.0.5
+  hive_flutter: ^1.1.0
+  carousel_slider: ^4.0.0
+  cupertino_icons: ^1.0.2
+  map_mvvm:
+    path: packages/map_mvvm
+  provider: 6.1.1
+  intl: ^0.17.0
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  hive_generator: ^1.1.1
+  build_runner: ^2.1.8
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  assets:
+    - assets/profile_picture.jpg
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+
+#Buat file packages package, pastu map_mvvm : packes. bla bla bla
